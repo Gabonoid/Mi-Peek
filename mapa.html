@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="img/icon_dog.png" rel="shortcut icon" type="image/png" />
+		<link rel="stylesheet" href="css/mapa.css" />
+		<title>Mi peek | Mapa</title>
+	</head>
+	<body>
+		<header>
+			<a href="#"
+				><img src="img/Logo_MiPeek.png" alt="Logo Mi Peek" class="logo"
+			/></a>
+			<nav class="nav_menu">
+				<a href="#" class="nav_menu-btn">Nosotros</a>
+				<a href="logueo.html" class="btn_principal">Ingresar</a>
+			</nav>
+		</header>
+		<main>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7526.434456728659!2d-99.06894007614!3d19.403018014165532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc44c2b751ff%3A0x717617548a3642b8!2sAgr%C3%ADcola%20Oriental!5e0!3m2!1ses!2smx!4v1637181863105!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<div class="mapa" id="mapa"></div>
+		</main>
+		<script src="js/mapa.js"></script>
+		<script
+			async
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcm9mP5OZssDhDuF82ObXXEVOxsbKvTOY&callback=initMap"
+		></script>
+	</body>
+</html>
