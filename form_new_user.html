@@ -4,50 +4,76 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href='img/icon_dog.png' rel='shortcut icon' type='image/png'>
+		<link href="img/icon_dog.png" rel="shortcut icon" type="image/png" />
+		<link rel="stylesheet" href="css/form_new_user.css" />
 		<title>Mi peek | Registro</title>
 	</head>
 	<body>
-		<main>
-			<h1>Registrate!</h1>
+		<header>
 			<div class="container">
-				<form action="">
-					<div class="campo_informacion">
-						<h3>Nombre</h3>
-						<input type="text" />
-					</div>
-					<div class="campo_informacion">
-						<h3>Apellido</h3>
-						<input type="text" />
-					</div>
-					<div class="campo_informacion">
-						<h3>Numero Telefonico</h3>
-						<input type="number" />
-					</div>
-					<div class="campo_informacion">
-						<h3>Correo</h3>
-						<input type="email" />
-					</div>
-					<div class="campo_informacion">
-						<h3>Fecha de nacimiento</h3>
-						<input type="date" />
-					</div>
-					<div class="campo_informacion">
-						<h3>Genero</h3>
-                        <div>
-                            <input type="radio" id="masculino" name="genero">
-                            <label for="masculino">Masculino</label>
+				<img
+					src="img/Logo_con_eslogan_orange.png"
+					alt="Logo Mi Peek"
+					class="logo"
+				/>
 
-                            <input type="radio" id="femenino" name="genero">
-                            <label for="femenino">Femenino</label>
+				<nav class="nav_menu">
+					<a href="#" class="nav_menu-btn">Nosotros</a>
+					<a href="index.html" class="nav_menu-btn">Principal</a>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<h1>Registrate!</h1>
+				<div class="formulario">
+					<form action="">
+						<div class="campo_informacion">
+							<h3>Nombre</h3>
+							<input type="text" />
+						</div>
+						<div class="campo_informacion">
+							<h3>Apellido</h3>
+							<input type="text" />
+						</div>
+						<div class="campo_informacion">
+							<h3>Numero Telefonico</h3>
+							<input type="number" />
+						</div>
+						<div class="campo_informacion">
+							<h3>Correo</h3>
+							<input type="email" />
+						</div>
+						<div class="campo_informacion">
+							<h3>Contraseña</h3>
+							<input type="password" />
+						</div>
+						<div class="campo_informacion">
+							<h3>Confirma tu contraseña</h3>
+							<input type="password" />
+						</div>
+						<div class="campo_informacion">
+							<h3>Fecha de nacimiento</h3>
+							<input type="date" />
+						</div>
+						<div class="campo_informacion_radio">
+							<h3>Genero</h3>
+							<div class="radio">
+								<input type="radio" id="masculino" name="genero" />
+								<label for="masculino">Masculino</label>
 
-                            <input type="radio" id="otro" name="genero">
-                            <label for="otro">Otro</label>
-                        </div>
-					</div>
-                    <button type="submit">Registrarse</button>
-				</form>
+								<input type="radio" id="femenino" name="genero" />
+								<label for="femenino">Femenino</label>
+
+								<input type="radio" id="otro" name="genero" />
+								<label for="otro">Otro</label>
+							</div>
+						</div>
+					</form>
+                    <button class="btn_registrar">Registrarse</button>
+				</div>
 			</div>
 		</main>
+		<footer></footer>
 	</body>
 </html>
