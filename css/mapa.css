@@ -32,6 +32,13 @@ html,
           width: 180px;
       }
 
+      .btn_agendar_cita{
+        padding: 5px 10px;
+        background-color: #FF8A00;
+        border-radius: 15px;
+        color: #fff;
+        text-decoration: none;
+      }
 
       #map-container {
         width: 100%;
