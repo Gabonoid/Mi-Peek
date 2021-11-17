@@ -70,9 +70,6 @@ main .container {
 .campo_informacion {
 	margin: 10px;
 	width: 40%;
-    border-width: 2px;
-    border-color:aqua ;
-    border-style: solid;
 }
 
 .campo_informacion h3 {
@@ -101,15 +98,10 @@ main .container {
     align-items: center;
     margin-top: 10px;
     
-    border-width: 2px;
-    border-color:aqua ;
-    border-style: solid;
 }
 
 .radio label{
     border-width: 2px;
-    border-color:aqua ;
-    border-style: solid;
 }
 
 .campo_informacion_radio h3 {
