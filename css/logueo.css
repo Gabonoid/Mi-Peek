@@ -69,6 +69,11 @@ form {
     transition: 0.3s;
 }
 
+.btn_crear a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .campo_informacion input{
     border-color: #FF8A00;
     background-color: rgba(255, 255, 255, 0);
